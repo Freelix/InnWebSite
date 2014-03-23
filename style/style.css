@@ -1,0 +1,559 @@
+html
+{ height: 100%;}
+
+*
+{ padding: 0;
+  margin: 0;}
+
+body
+{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+  /*background: #E8E4E5;
+  background: #45485e url('images/body-bg.png') repeat-x fixed;*/
+  background-image: url('../style/back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+  color: #555;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  }
+
+p
+{ padding: 0 0 16px 0;
+  line-height: 1.7em;
+  font-size:1.2em;}
+
+h1, h2, h3, h4, h5, h6 
+{ color: #362C20;
+  padding: 0 0 5px 0;}
+
+h1, h4
+{ font: normal 165% "century gothic", arial;
+  margin: 0 0 15px 0;
+  padding: 15px 20px 5px 0;}
+
+h2, h5
+{ color: #FA9300;
+  padding: 0 0 5px 0;
+  font: normal 120% arial;}
+
+h3, h6
+{ color: #888;
+  font: italic 95% arial;
+  padding: 0 0 15px 0;}
+
+h4, h6
+{ color: #B60000;}
+
+h5
+{ color: #362C20;}
+
+img
+{ border: 0;}
+
+blockquote
+{ margin: 20px 0 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #F5F5F1;}
+
+ul
+{ margin: 2px 0 18px 16px;}
+
+ul li
+{ list-style-type: square;
+  margin: 0 0 6px 0; 
+  padding: 0 0 0 8px;}
+
+ol
+{ margin: 2px 0 0 24px;}
+
+ol li
+{ margin: 0 0 6px 0;}
+
+#main, #header, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#main
+{ width: 945px;
+  background: #E2E2DA url(content.png) repeat-y;
+  color: #555;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;} 
+
+#header
+{ /*background: #C9D3C8;*/
+  color: #FFF;
+  width: 905px;
+  border-top: 8px solid #FFF;}
+
+#logo
+{ width: 905px;
+  height: 166px;
+  position: relative;
+  /*background: url(auberge_photo.jpg) no-repeat right bottom;*/
+  color: #FFF;}
+
+#logo #logo_text 
+{ position: absolute; 
+  top: 10px;
+  left: 0;}
+  
+#logo_text h1
+{ font: normal 280% "century gothic", arial;
+  padding: 29px 0 0 20px;
+  margin: 0;
+  margin-left: 150px;
+  color: #05B3FB;
+  background: transparent;}
+
+#logo_text h2
+{ font-size: 110%;
+  margin: 0;
+  margin-left: 150px;
+  padding: 4px 0 0 20px;
+  color: #4F4F4F;
+  background: transparent;
+  text-transform: none;
+  letter-spacing: 0.1em;}
+  
+ #textt
+{
+	text-decoration: none;
+} 
+  
+  /* Logo HI*/  
+#logo_hi
+{
+	height: 150px;
+	width: 150px;
+	float: left;
+}
+
+/* Logo TR */
+#logo_tr
+{
+	height: 150px;
+	width: 150px;
+	float: right;
+	margin-right: 30px;
+}
+
+/* Logo Auberge */
+#auberge_logo
+{
+	width: 523px;
+	height: 166px;
+	float: right;
+}
+
+/* Page en bas (Mulitmedia) */
+#page_bas
+{
+	margin-top: 30px;
+	font-size: 1.7em;
+}
+
+/* About_us Personnes */
+#image_personne
+{
+	width: 225px;
+	height: 175px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#info_personne
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#menubar
+{ background: #C9D3C8 url(menu_orange.png) repeat-x; /*Background dans le menu*/
+  width: 872px;
+  height: 45px;
+  padding: 0 17px 0 16px;} 
+
+ul#menu
+{ float: right; 
+  margin: 0;}
+
+ul#menu li
+{ float: left;
+  margin: 7px 0 0 0;
+  padding: 0;
+  list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font-size: 105%;
+  display: block; 
+  float: left; 
+  height: 25px;
+  text-decoration: none; 
+  padding: 8px 22px 5px 22px;
+  text-align: center;
+  background: transparent;
+  color: #FFF;} /* Couleur dans le menu */
+
+ul#menu li.tab_selected, ul#menu li.tab_selected a:hover
+{ background: url(menu_selected_orange.png) repeat-x; /* Couleur de l'onglet*/
+  color: #FFF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;}
+
+ul#menu li a:hover
+{ background: transparent;
+  color: #05B3FB;}
+
+#site_content
+{ overflow: hidden;} 
+
+/*Image Activités*/
+#image_activites
+{ 
+	width: 200px;
+	height: 150px;
+	float:right;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+/* Titre Multimedia */
+#titre_photo
+{
+	color: #FF7A0F;
+	text-align: center;
+}
+
+/* Images dans la section Multimedia */
+#images_multi
+{
+	text-align: center;
+}
+
+/* Redimensionnement des photos dans la galerie */
+#redimensionnement
+{
+	width: 300px;
+	height: 250px;
+	margin:5px;
+}
+
+/* Nous contacter tableau */
+#tableau_contacter
+{
+	width: 130px;
+	vertical-align: top;
+	color: #FF7A0F;
+}
+
+/* Google Map */
+#G_map
+{
+	color: #0000FF;
+	text-align: left;
+	font-size: 1.4em;
+}
+/* Liste services */
+#liste_services
+{
+	list-style-type: disc;
+	color: #05A4D1;
+	margin: 15px 0 15px 0;
+	width: 600px;
+}
+
+/* Titres des services */
+#serv_titles
+{
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+/* Couleur menu déroulant */
+#menu_dropdown
+{
+	background: #69655D;	
+}
+
+/* Liste des partenaires */
+#liste_partenaires
+{
+	width: 175px;
+	list-style-type: disc;
+	color: #05A4D1;
+}
+
+/* Deuxième rangée de la liste des partenaires */
+#liste_partenaires_droite
+{
+	margin-right: 75px;
+	width: 50px;
+	height: 50px;
+}
+
+/* Espacement entre les services et les partenaires */
+#services
+{
+	margin-bottom: 40px;
+}
+
+/* Tableaux dans la fenêtre réservation */
+#tab_reserv tr td
+{
+	background: #CCCCCC;
+    color: #47433F;
+	text-align: center;
+}
+
+/* Tableaux dans la fenêtre réservation */
+#tab_reserv tr th
+{
+	background: #595959;
+	text-align: center;
+}
+
+#tab_reserv
+{
+	margin-bottom: 0;
+}
+
+/* Information sous le tableau dans réservation */
+#info_sous_tab
+{
+	margin-top: 25px;
+}
+
+/* Petits caractères */
+#petits_car
+{
+	font-size: 80%;
+}
+
+/* Espace entre la carte et l'équipe */
+#team
+{
+	margin-top: 40px;
+}
+
+/* test_image */
+#test_image
+{
+	float: right;
+	width: 128px;
+	height: 128px;
+	margin-left: 10px;
+}
+
+#div_activite
+{
+	margin-bottom: 65px;
+}
+
+/* facebook_logo */
+#facebook_logo
+{
+	width: 43px;
+	height: 43px;
+}
+
+/* langue */
+#langue:hover
+{
+	color: #05B3FB;
+}
+
+.sidebar
+{ float: left;
+  width: 168px;
+  padding: 10px 15px 15px 34px;
+  margin-right: 10px;}
+
+.sidebar ul
+{ border-top: 1px solid #EEEEEA;
+  width: 178px; 
+  padding-top: 4px; 
+  margin: 4px 0 20px 0;}
+
+.sidebar li
+{ list-style: none; 
+  padding: 0 0 4px 0; 
+  border-bottom: 1px solid #EEEEEA;}
+
+.sidebar li a, .sidebar li a:hover
+{ text-decoration: none; 
+  padding: 0 0 0 22px;
+  display: block;
+  background: transparent url(arrow.png) no-repeat left center;
+  color: #555;
+  border: 0;} 
+
+.sidebar li a.selected, .sidebar li a:hover, .sidebar li a.selected:hover
+{ background: transparent url(arrow_select.png) no-repeat left center;
+  border: 0;
+  color: #028FD0;} 
+
+#content
+{ text-align: left;
+  width: 640px;
+  float: left;
+  padding: 10px 10px 40px 35px;}
+
+#footer
+{ width: 905px;
+  height: 40px;
+  padding: 22px 0 4px 0;
+  text-align: center; 
+  background: #595959;
+  color: #FFF;
+  border-top: 5px solid #FF7A0F;}
+
+#footer a, #footer a:hover
+{ background: transparent;
+  color: #FFF;}
+
+.yellow
+{ color: #F7C015;}
+
+.blue
+{ color: #05A4D1;}
+
+.orange
+{ color: #FF7A0F;}
+
+.red
+{ color: #C80500;}
+
+.purple
+{ color: #EB0FFF;}
+
+.green
+{ color: #A4AA04;}
+
+.form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 200px; 
+  text-align: left;}
+  
+.form_settings input, .form_settings textarea
+{ padding: 2px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.form_settings .submit
+{ font: 100% arial; 
+  border: 1px solid; 
+  width: 99px; 
+  margin: 0 0 0 206px; 
+  height: 26px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #595959; 
+  color: #FFF;}
+
+.form_settings textarea, .form_settings select
+{ font: 100% arial; 
+  width: 299px;}
+
+.form_settings select
+{ width: 304px;}
+
+.form_settings .checkbox
+{ margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;}
+
+.separator
+{ width: 100%;
+  height: 0;
+  border-top: 1px solid #D9D5CF;
+  border-bottom: 1px solid #FFF;
+  margin: 0 0 20px 0;}
+  
+table
+{ margin: 10px 0 30px 0;}
+
+table tr th, table tr td
+{ text-align: left;
+  color: #FFF;
+  padding: 7px 4px;}
+  
+table tr td
+{ color: #47433F;
+  border-top: 1px solid #FFF;}
+  
+/* Admin */
+
+/* Text Area */
+#area_design
+{
+	background-color: lightgray;
+	width: 400px;
+	height: 250px;
+	margin-bottom: 30px;
+}
+
+/* TextBox */
+#titre_design
+{
+	background-color: lightgray;
+	width: 400px;
+	margin-bottom: 30px;
+}
+
+#titre_design2
+{
+	background-color: white;
+	width: 200px;
+}
+
+/* Bouton design */
+#bouton_design
+{
+	left: 0px;
+}
+
+/* Messages */
+#message
+{
+	color: red;
+	font-size: 125%;
+	margin-top: 25px;
+}
+
+/* Boutons Modifier et Supprimer */
+#btn_edit_supp
+{
+	width: 25px;
+	height: 25px;
+}
+
+/* TextBox rates table */
+#tarifs_mod
+{
+	width: 60px;
+}
+
+/*taille image tab mod  */
+#img_tab_taille
+{
+	width: 150px;
+	height: 100px;
+}	
