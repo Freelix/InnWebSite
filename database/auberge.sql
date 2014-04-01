@@ -1,10 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 4.0.4
--- http://www.phpmyadmin.net
---
--- Client: localhost
--- Généré le: Dim 23 Mars 2014 à 03:06
--- Version du serveur: 5.1.41-community-log
+
 -- Version de PHP: 5.4.16
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
